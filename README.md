@@ -42,7 +42,7 @@ Pastikan Anda sudah menginstal Node.js.
 
 Clone repository ini:
 
-git clone [URL_GITHUB_ANDA]
+git clone https://github.com/hendi045/Hendi_UTS_Web2.git
 cd warhope-ecom
 
 
@@ -62,4 +62,4 @@ Buka http://localhost:3000 di browser Anda.
 
 Aplikasi ini telah di-deploy dan dapat diakses secara online melalui GitHub Pages pada tautan berikut:
 
-[Masukkan Link URL GitHub Pages Anda Di Sini, contoh: https://www.google.com/search?q=https://username.github.io/NamaDepan_NamaBelakang_UTS_Web2]
+[[Masukkan Link URL GitHub Pages Anda Di Sini, contoh: https://www.google.com/search?q=https://username.github.io/NamaDepan_NamaBelakang_UTS_Web2]](https://github.com/hendi045/Hendi_UTS_Web2)
