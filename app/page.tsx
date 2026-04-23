@@ -25,13 +25,19 @@ export default function Home() {
   const [activeCategory, setActiveCategory] = useState('Semua');
   const [sortOrder, setSortOrder] = useState<'default' | 'murah' | 'mahal'>('default');
 
-  // Mengambil data produk dari Supabase saat halaman dimuat
+  // Mengambil data produk dari JSON lokal
   useEffect(() => {
     const fetchProducts = async () => {
       setIsLoading(true);
-      const response = await fetch('/products.json');
-const data = await response.json();
-setProducts(data);
+      try {
+        const response = await fetch('/products.json');
+        const data = await response.json();
+        setProducts(data);
+      } catch (error) {
+        console.error("Gagal mengambil data produk:", error);
+      } finally {
+        setIsLoading(false); // Pastikan loading berhenti meskipun berhasil/gagal
+      }
     };
 
     fetchProducts();
@@ -53,7 +59,6 @@ setProducts(data);
   // LOGIKA CERDAS: Filter Kategori KEMUDIAN Sorting Harga
   const getProcessedProducts = () => {
     // 1. Filter Kategori
-    // PERBAIKAN: Menggunakan const alih-alih let sesuai saran linter
     const result = activeCategory === 'Semua' 
       ? [...products] 
       : products.filter(p => p.category === activeCategory);
