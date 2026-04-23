@@ -5,7 +5,9 @@ Project ini dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuliah 
 🧑‍💻 Identitas Mahasiswa
 
 Nama: HENDI
+
 NIM: 2411070113
+
 Kelas: Informatika 7 leguler malam
 
 🚀 Fitur Aplikasi
@@ -43,6 +45,7 @@ Pastikan Anda sudah menginstal Node.js.
 Clone repository ini:
 
 git clone https://github.com/hendi045/Hendi_UTS_Web2.git
+
 cd warhope-ecom
 
 
@@ -62,4 +65,4 @@ Buka http://localhost:3000 di browser Anda.
 
 Aplikasi ini telah di-deploy dan dapat diakses secara online melalui GitHub Pages pada tautan berikut:
 
-[[Masukkan Link URL GitHub Pages Anda Di Sini, contoh: https://www.google.com/search?q=https://username.github.io/NamaDepan_NamaBelakang_UTS_Web2]](https://github.com/hendi045/Hendi_UTS_Web2)
+https://github.com/hendi045/Hendi_UTS_Web2
