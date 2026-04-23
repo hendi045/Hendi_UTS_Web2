@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Heart, CheckCircle2, Mail, ArrowRight, Sparkles, ShieldCheck, Truck, Star, ArrowDownAZ, ArrowUpZA } from 'lucide-react';
-import { getAllProducts } from '../lib/api';
 import AddToCartButton from '../components/AddToCartButton';
 
 // 1. Didefinisikan Interface Product agar TypeScript paham struktur datanya
@@ -30,9 +29,9 @@ export default function Home() {
   useEffect(() => {
     const fetchProducts = async () => {
       setIsLoading(true);
-      const data = await getAllProducts();
-      setProducts(data || []);
-      setIsLoading(false);
+      const response = await fetch('/products.json');
+const data = await response.json();
+setProducts(data);
     };
 
     fetchProducts();
