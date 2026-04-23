@@ -4,9 +4,9 @@ Project ini dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuliah 
 
 🧑‍💻 Identitas Mahasiswa
 
-Nama: [NAMA DEPAN] [NAMA BELAKANG]
-NIM: [NIM ANDA]
-Kelas: [KELAS ANDA]
+Nama: HENDI
+NIM: 2411070113
+Kelas: Informatika 7 leguler malam
 
 🚀 Fitur Aplikasi
 
