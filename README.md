@@ -65,4 +65,4 @@ Buka http://localhost:3000 di browser Anda.
 
 Aplikasi ini telah di-deploy dan dapat diakses secara online melalui GitHub Pages pada tautan berikut:
 
-hendi-uts-web2.vercel.app
+https://hendi-uts-web2.vercel.app/
